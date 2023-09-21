@@ -1,0 +1,66 @@
+
+/* Reset some default styles */
+body, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Unique header styling */
+header {
+    background-image: url('istockphoto-1419766496-612x612.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.header-content {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+/* Navigation styles */
+nav ul {
+    list-style-type: circle;
+    text-align: center;
+}
+
+nav li {
+    display:inline;
+    margin: 0 15px;
+}
+
+/* Unique section styling */
+.section {
+    padding: 40px 0;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.section-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.project {
+    color: darkblue;
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+/* Footer styling */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color:white;
+}
